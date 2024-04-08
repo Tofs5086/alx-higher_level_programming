@@ -4,7 +4,8 @@ const argument = process.argv.slice(2);
 if (argument.length === 0) 
 {
     console.log('No argument');
-} else 
+} 
+else 
 {
     console.log(argument[0]);
 }
